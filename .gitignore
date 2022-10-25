@@ -1,0 +1,4 @@
+build/
+.DS_Store
+mysh.xcodeproj/project.xcworkspace/
+mysh.xcodeproj/xcuserdata/
