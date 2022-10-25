@@ -10,6 +10,15 @@
 		63EFB6102907C0B6001BEEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB60F2907C0B6001BEEC4 /* AppDelegate.swift */; };
 		63EFB6122907C0B6001BEEC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6112907C0B6001BEEC4 /* SceneDelegate.swift */; };
 		63EFB6142907C0B6001BEEC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6132907C0B6001BEEC4 /* ViewController.swift */; };
+		63EFB6352907E1A3001BEEC4 /* LocationDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6242907E1A3001BEEC4 /* LocationDevice.m */; };
+		63EFB6362907E1A3001BEEC4 /* TerminalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6262907E1A3001BEEC4 /* TerminalView.m */; };
+		63EFB6372907E1A3001BEEC4 /* DelayedUITask.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6282907E1A3001BEEC4 /* DelayedUITask.m */; };
+		63EFB6392907E1A3001BEEC4 /* fakefs.c in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB62D2907E1A3001BEEC4 /* fakefs.c */; };
+		63EFB63B2907E1A3001BEEC4 /* Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6312907E1A3001BEEC4 /* Terminal.m */; };
+		63EFB63C2907E1A3001BEEC4 /* ScrollbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6332907E1A3001BEEC4 /* ScrollbarView.m */; };
+		63EFB63D2907E1A3001BEEC4 /* PasteboardDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6342907E1A3001BEEC4 /* PasteboardDevice.m */; };
+		63EFB63F2907E1CE001BEEC4 /* ProjectRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */; };
+		63EFB6422907E7F9001BEEC4 /* Roots.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6402907E7F9001BEEC4 /* Roots.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +27,23 @@
 		63EFB6112907C0B6001BEEC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		63EFB6132907C0B6001BEEC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		63EFB61D2907C0B8001BEEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EFB6232907E1A2001BEEC4 /* mysh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mysh-Bridging-Header.h"; sourceTree = "<group>"; };
+		63EFB6242907E1A3001BEEC4 /* LocationDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDevice.m; sourceTree = "<group>"; };
+		63EFB6252907E1A3001BEEC4 /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
+		63EFB6262907E1A3001BEEC4 /* TerminalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminalView.m; sourceTree = "<group>"; };
+		63EFB6282907E1A3001BEEC4 /* DelayedUITask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayedUITask.m; sourceTree = "<group>"; };
+		63EFB62A2907E1A3001BEEC4 /* PasteboardDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteboardDevice.h; sourceTree = "<group>"; };
+		63EFB62B2907E1A3001BEEC4 /* LocationDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDevice.h; sourceTree = "<group>"; };
+		63EFB62D2907E1A3001BEEC4 /* fakefs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fakefs.c; sourceTree = "<group>"; };
+		63EFB62E2907E1A3001BEEC4 /* DelayedUITask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayedUITask.h; sourceTree = "<group>"; };
+		63EFB62F2907E1A3001BEEC4 /* ScrollbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollbarView.h; sourceTree = "<group>"; };
+		63EFB6312907E1A3001BEEC4 /* Terminal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terminal.m; sourceTree = "<group>"; };
+		63EFB6322907E1A3001BEEC4 /* TerminalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalView.h; sourceTree = "<group>"; };
+		63EFB6332907E1A3001BEEC4 /* ScrollbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollbarView.m; sourceTree = "<group>"; };
+		63EFB6342907E1A3001BEEC4 /* PasteboardDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteboardDevice.m; sourceTree = "<group>"; };
+		63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ProjectRelease.xcconfig; sourceTree = "<group>"; };
+		63EFB6402907E7F9001BEEC4 /* Roots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roots.m; sourceTree = "<group>"; };
+		63EFB6412907E7F9001BEEC4 /* Roots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roots.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,23 @@
 				63EFB6112907C0B6001BEEC4 /* SceneDelegate.swift */,
 				63EFB6132907C0B6001BEEC4 /* ViewController.swift */,
 				63EFB61D2907C0B8001BEEC4 /* Info.plist */,
+				63EFB62E2907E1A3001BEEC4 /* DelayedUITask.h */,
+				63EFB6282907E1A3001BEEC4 /* DelayedUITask.m */,
+				63EFB62D2907E1A3001BEEC4 /* fakefs.c */,
+				63EFB6412907E7F9001BEEC4 /* Roots.h */,
+				63EFB6402907E7F9001BEEC4 /* Roots.m */,
+				63EFB62B2907E1A3001BEEC4 /* LocationDevice.h */,
+				63EFB6242907E1A3001BEEC4 /* LocationDevice.m */,
+				63EFB62A2907E1A3001BEEC4 /* PasteboardDevice.h */,
+				63EFB6342907E1A3001BEEC4 /* PasteboardDevice.m */,
+				63EFB62F2907E1A3001BEEC4 /* ScrollbarView.h */,
+				63EFB6332907E1A3001BEEC4 /* ScrollbarView.m */,
+				63EFB6252907E1A3001BEEC4 /* Terminal.h */,
+				63EFB6312907E1A3001BEEC4 /* Terminal.m */,
+				63EFB6322907E1A3001BEEC4 /* TerminalView.h */,
+				63EFB6262907E1A3001BEEC4 /* TerminalView.m */,
+				63EFB6232907E1A2001BEEC4 /* mysh-Bridging-Header.h */,
+				63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */,
 			);
 			path = mysh;
 			sourceTree = "<group>";
@@ -90,6 +133,7 @@
 				TargetAttributes = {
 					63EFB60B2907C0B6001BEEC4 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -116,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EFB63F2907E1CE001BEEC4 /* ProjectRelease.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EFB6352907E1A3001BEEC4 /* LocationDevice.m in Sources */,
+				63EFB63D2907E1A3001BEEC4 /* PasteboardDevice.m in Sources */,
+				63EFB6422907E7F9001BEEC4 /* Roots.m in Sources */,
+				63EFB6392907E1A3001BEEC4 /* fakefs.c in Sources */,
+				63EFB6362907E1A3001BEEC4 /* TerminalView.m in Sources */,
 				63EFB6142907C0B6001BEEC4 /* ViewController.swift in Sources */,
+				63EFB6372907E1A3001BEEC4 /* DelayedUITask.m in Sources */,
+				63EFB63B2907E1A3001BEEC4 /* Terminal.m in Sources */,
 				63EFB6102907C0B6001BEEC4 /* AppDelegate.swift in Sources */,
+				63EFB63C2907E1A3001BEEC4 /* ScrollbarView.m in Sources */,
 				63EFB6122907C0B6001BEEC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -272,6 +326,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "mysh/mysh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -282,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -300,6 +357,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "mysh/mysh-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

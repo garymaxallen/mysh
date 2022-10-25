@@ -1,0 +1,5 @@
+#!/bin/sh
+# Try to figure out the user's PATH to pick up their installed utilities.
+export PATH="$PATH:$(sudo -u "$USER" -i printenv PATH)"
+
+ninja libish.a libish_emu.a libfakefs.a
