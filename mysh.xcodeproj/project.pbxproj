@@ -23,6 +23,12 @@
 		63EFB64A2907ED2E001BEEC4 /* libfakefs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6462907ED2E001BEEC4 /* libfakefs.a */; };
 		63EFB64B2907ED2E001BEEC4 /* libish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6472907ED2E001BEEC4 /* libish.a */; };
 		63EFB64D2907EDAF001BEEC4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */; };
+		63EFB6502907EF80001BEEC4 /* MyUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB64F2907EF80001BEEC4 /* MyUtility.m */; };
+		63EFB6522907F16E001BEEC4 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6512907F16E001BEEC4 /* libresolv.tbd */; };
+		63EFB6542907F20C001BEEC4 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6532907F20C001BEEC4 /* libbz2.tbd */; };
+		63EFB6562907F23C001BEEC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6552907F23C001BEEC4 /* CoreLocation.framework */; };
+		63EFB6582907F245001BEEC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6572907F245001BEEC4 /* SystemConfiguration.framework */; };
+		63EFB65B2907F3DD001BEEC4 /* CurrentRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6592907F3DD001BEEC4 /* CurrentRoot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,14 @@
 		63EFB6462907ED2E001BEEC4 /* libfakefs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfakefs.a; path = myresource/libfakefs.a; sourceTree = "<group>"; };
 		63EFB6472907ED2E001BEEC4 /* libish.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libish.a; path = myresource/libish.a; sourceTree = "<group>"; };
 		63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		63EFB64E2907EF80001BEEC4 /* MyUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUtility.h; sourceTree = "<group>"; };
+		63EFB64F2907EF80001BEEC4 /* MyUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUtility.m; sourceTree = "<group>"; };
+		63EFB6512907F16E001BEEC4 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		63EFB6532907F20C001BEEC4 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		63EFB6552907F23C001BEEC4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63EFB6572907F245001BEEC4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63EFB6592907F3DD001BEEC4 /* CurrentRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentRoot.m; sourceTree = "<group>"; };
+		63EFB65A2907F3DD001BEEC4 /* CurrentRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentRoot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EFB6582907F245001BEEC4 /* SystemConfiguration.framework in Frameworks */,
+				63EFB6562907F23C001BEEC4 /* CoreLocation.framework in Frameworks */,
+				63EFB6542907F20C001BEEC4 /* libbz2.tbd in Frameworks */,
+				63EFB6522907F16E001BEEC4 /* libresolv.tbd in Frameworks */,
 				63EFB64D2907EDAF001BEEC4 /* libiconv.tbd in Frameworks */,
 				63EFB6482907ED2E001BEEC4 /* libish_emu.a in Frameworks */,
 				63EFB6492907ED2E001BEEC4 /* libarchive.a in Frameworks */,
@@ -93,10 +111,14 @@
 				63EFB60F2907C0B6001BEEC4 /* AppDelegate.swift */,
 				63EFB6112907C0B6001BEEC4 /* SceneDelegate.swift */,
 				63EFB6132907C0B6001BEEC4 /* ViewController.swift */,
+				63EFB64E2907EF80001BEEC4 /* MyUtility.h */,
+				63EFB64F2907EF80001BEEC4 /* MyUtility.m */,
 				63EFB61D2907C0B8001BEEC4 /* Info.plist */,
 				63EFB62E2907E1A3001BEEC4 /* DelayedUITask.h */,
 				63EFB6282907E1A3001BEEC4 /* DelayedUITask.m */,
 				63EFB62D2907E1A3001BEEC4 /* fakefs.c */,
+				63EFB65A2907F3DD001BEEC4 /* CurrentRoot.h */,
+				63EFB6592907F3DD001BEEC4 /* CurrentRoot.m */,
 				63EFB6412907E7F9001BEEC4 /* Roots.h */,
 				63EFB6402907E7F9001BEEC4 /* Roots.m */,
 				63EFB62B2907E1A3001BEEC4 /* LocationDevice.h */,
@@ -117,6 +139,10 @@
 		63EFB6432907ED2E001BEEC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63EFB6572907F245001BEEC4 /* SystemConfiguration.framework */,
+				63EFB6552907F23C001BEEC4 /* CoreLocation.framework */,
+				63EFB6532907F20C001BEEC4 /* libbz2.tbd */,
+				63EFB6512907F16E001BEEC4 /* libresolv.tbd */,
 				63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */,
 				63EFB6452907ED2E001BEEC4 /* libarchive.a */,
 				63EFB6462907ED2E001BEEC4 /* libfakefs.a */,
@@ -200,9 +226,11 @@
 				63EFB6422907E7F9001BEEC4 /* Roots.m in Sources */,
 				63EFB6392907E1A3001BEEC4 /* fakefs.c in Sources */,
 				63EFB6362907E1A3001BEEC4 /* TerminalView.m in Sources */,
+				63EFB65B2907F3DD001BEEC4 /* CurrentRoot.m in Sources */,
 				63EFB6142907C0B6001BEEC4 /* ViewController.swift in Sources */,
 				63EFB6372907E1A3001BEEC4 /* DelayedUITask.m in Sources */,
 				63EFB63B2907E1A3001BEEC4 /* Terminal.m in Sources */,
+				63EFB6502907EF80001BEEC4 /* MyUtility.m in Sources */,
 				63EFB6102907C0B6001BEEC4 /* AppDelegate.swift in Sources */,
 				63EFB63C2907E1A3001BEEC4 /* ScrollbarView.m in Sources */,
 				63EFB6122907C0B6001BEEC4 /* SceneDelegate.swift in Sources */,
