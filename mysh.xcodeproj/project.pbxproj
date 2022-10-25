@@ -17,8 +17,12 @@
 		63EFB63B2907E1A3001BEEC4 /* Terminal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6312907E1A3001BEEC4 /* Terminal.m */; };
 		63EFB63C2907E1A3001BEEC4 /* ScrollbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6332907E1A3001BEEC4 /* ScrollbarView.m */; };
 		63EFB63D2907E1A3001BEEC4 /* PasteboardDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6342907E1A3001BEEC4 /* PasteboardDevice.m */; };
-		63EFB63F2907E1CE001BEEC4 /* ProjectRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */; };
 		63EFB6422907E7F9001BEEC4 /* Roots.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EFB6402907E7F9001BEEC4 /* Roots.m */; };
+		63EFB6482907ED2E001BEEC4 /* libish_emu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6442907ED2E001BEEC4 /* libish_emu.a */; };
+		63EFB6492907ED2E001BEEC4 /* libarchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6452907ED2E001BEEC4 /* libarchive.a */; };
+		63EFB64A2907ED2E001BEEC4 /* libfakefs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6462907ED2E001BEEC4 /* libfakefs.a */; };
+		63EFB64B2907ED2E001BEEC4 /* libish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB6472907ED2E001BEEC4 /* libish.a */; };
+		63EFB64D2907EDAF001BEEC4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +45,13 @@
 		63EFB6322907E1A3001BEEC4 /* TerminalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalView.h; sourceTree = "<group>"; };
 		63EFB6332907E1A3001BEEC4 /* ScrollbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollbarView.m; sourceTree = "<group>"; };
 		63EFB6342907E1A3001BEEC4 /* PasteboardDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteboardDevice.m; sourceTree = "<group>"; };
-		63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ProjectRelease.xcconfig; sourceTree = "<group>"; };
 		63EFB6402907E7F9001BEEC4 /* Roots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roots.m; sourceTree = "<group>"; };
 		63EFB6412907E7F9001BEEC4 /* Roots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roots.h; sourceTree = "<group>"; };
+		63EFB6442907ED2E001BEEC4 /* libish_emu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libish_emu.a; path = myresource/libish_emu.a; sourceTree = "<group>"; };
+		63EFB6452907ED2E001BEEC4 /* libarchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libarchive.a; path = myresource/libarchive.a; sourceTree = "<group>"; };
+		63EFB6462907ED2E001BEEC4 /* libfakefs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfakefs.a; path = myresource/libfakefs.a; sourceTree = "<group>"; };
+		63EFB6472907ED2E001BEEC4 /* libish.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libish.a; path = myresource/libish.a; sourceTree = "<group>"; };
+		63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EFB64D2907EDAF001BEEC4 /* libiconv.tbd in Frameworks */,
+				63EFB6482907ED2E001BEEC4 /* libish_emu.a in Frameworks */,
+				63EFB6492907ED2E001BEEC4 /* libarchive.a in Frameworks */,
+				63EFB64A2907ED2E001BEEC4 /* libfakefs.a in Frameworks */,
+				63EFB64B2907ED2E001BEEC4 /* libish.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			children = (
 				63EFB60E2907C0B6001BEEC4 /* mysh */,
 				63EFB60D2907C0B6001BEEC4 /* Products */,
+				63EFB6432907ED2E001BEEC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +110,20 @@
 				63EFB6322907E1A3001BEEC4 /* TerminalView.h */,
 				63EFB6262907E1A3001BEEC4 /* TerminalView.m */,
 				63EFB6232907E1A2001BEEC4 /* mysh-Bridging-Header.h */,
-				63EFB63E2907E1CE001BEEC4 /* ProjectRelease.xcconfig */,
 			);
 			path = mysh;
+			sourceTree = "<group>";
+		};
+		63EFB6432907ED2E001BEEC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63EFB64C2907EDAF001BEEC4 /* libiconv.tbd */,
+				63EFB6452907ED2E001BEEC4 /* libarchive.a */,
+				63EFB6462907ED2E001BEEC4 /* libfakefs.a */,
+				63EFB6442907ED2E001BEEC4 /* libish_emu.a */,
+				63EFB6472907ED2E001BEEC4 /* libish.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63EFB63F2907E1CE001BEEC4 /* ProjectRelease.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +262,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/mycode",
+					"$(SRCROOT)/mycode/libarchive",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -292,6 +322,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/mycode",
+					"$(SRCROOT)/mycode/libarchive",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -320,6 +356,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myresource",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gg.mysh;
@@ -351,6 +391,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/myresource",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gg.mysh;
